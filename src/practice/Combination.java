@@ -10,6 +10,10 @@ public class Combination {
         System.out.println(Arrays.toString(combination(arr, arr.length)));
     }
 
+    public static Integer[] combination(Integer[] numbers) {
+        return combination(numbers, numbers.length);
+    }
+
     private static Integer[] combination(Integer[] numbers, int digit) {
         //입력받는 배열 복사
         Integer[] cloneNumbers = numbers.clone();
