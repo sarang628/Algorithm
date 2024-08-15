@@ -1,23 +1,25 @@
-package tree;
+package tree.impl;
+
+import tree.interfaces.INode;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class IntNode implements INode {
-    private final int value;
-    private List<INode> children = new ArrayList();
+public class IntNodeImpl<T> implements INode<T> {
+    private final T value;
+    private List<INode<T>> children = new ArrayList();
 
-    IntNode(int value) {
+    public IntNodeImpl(T value) {
         this.value = value;
     }
 
     @Override
-    public int getValue() {
+    public T getValue() {
         return value;
     }
 
     @Override
-    public List<INode> getChild() {
+    public List<INode<T>> getChild() {
         return children;
     }
 
