@@ -1,12 +1,13 @@
 package tree.test;
 
-import tree.impl.IntNodeImpl;
+import tree.impl.tree.IntNodeImpl;
+import tree.interfaces.IMultiNode;
 import tree.interfaces.INode;
 import tree.interfaces.ITree;
 
 public class TreeIntSampleData {
     static void getSample(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(1);
+        IMultiNode<Integer> root = new IntNodeImpl(1);
 
         tree.setRoot(root);
 
@@ -25,7 +26,7 @@ public class TreeIntSampleData {
     }
 
     static void getSample1(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(10);
+        IMultiNode<Integer> root = new IntNodeImpl(10);
 
         tree.setRoot(root);
 
@@ -40,7 +41,7 @@ public class TreeIntSampleData {
     }
 
     static void getSample2(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(20);
+        IMultiNode<Integer> root = new IntNodeImpl(20);
 
         tree.setRoot(root);
 
@@ -55,7 +56,7 @@ public class TreeIntSampleData {
     }
 
     private static void getSample3(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(7);
+        IMultiNode<Integer> root = new IntNodeImpl(7);
 
         tree.setRoot(root);
 
@@ -70,7 +71,7 @@ public class TreeIntSampleData {
     }
 
     private static void getSample4(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(8);
+        IMultiNode<Integer> root = new IntNodeImpl(8);
 
         tree.setRoot(root);
 
@@ -85,7 +86,7 @@ public class TreeIntSampleData {
     }
 
     private static void getSample5(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(15);
+        IMultiNode<Integer> root = new IntNodeImpl(15);
 
         tree.setRoot(root);
 
@@ -100,7 +101,7 @@ public class TreeIntSampleData {
     }
 
     private static void getSample6(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(25);
+        IMultiNode<Integer> root = new IntNodeImpl(25);
 
         tree.setRoot(root);
 
@@ -115,7 +116,7 @@ public class TreeIntSampleData {
     }
 
     private static void getSample7(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(30);
+        IMultiNode<Integer> root = new IntNodeImpl(30);
 
         tree.setRoot(root);
 
@@ -130,7 +131,7 @@ public class TreeIntSampleData {
     }
 
     private static void getSample8(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(50);
+        IMultiNode<Integer> root = new IntNodeImpl(50);
 
         tree.setRoot(root);
 
@@ -145,7 +146,7 @@ public class TreeIntSampleData {
     }
 
     private static void getSample9(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(5);
+        IMultiNode<Integer> root = new IntNodeImpl(5);
 
         tree.setRoot(root);
 
@@ -160,7 +161,7 @@ public class TreeIntSampleData {
     }
 
     private static void getSample10(ITree tree) {
-        INode<Integer> root = new IntNodeImpl(12);
+        IMultiNode<Integer> root = new IntNodeImpl(12);
 
         tree.setRoot(root);
 

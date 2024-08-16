@@ -1,12 +1,12 @@
 package tree.test;
 
-import tree.impl.IntNodeImpl;
-import tree.interfaces.INode;
+import tree.impl.tree.IntNodeImpl;
+import tree.interfaces.IMultiNode;
 import tree.interfaces.ITree;
 
 public class TreeStringSampleData {
     static void getSample(ITree tree) {
-        INode<String> root = new IntNodeImpl("/");
+        IMultiNode<String> root = new IntNodeImpl("/");
 
         tree.setRoot(root);
 

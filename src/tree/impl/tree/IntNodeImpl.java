@@ -1,13 +1,13 @@
-package tree.impl;
+package tree.impl.tree;
 
-import tree.interfaces.INode;
+import tree.interfaces.IMultiNode;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class IntNodeImpl<T> implements INode<T> {
+public class IntNodeImpl<T> implements IMultiNode<T> {
     private final T value;
-    private List<INode<T>> children = new ArrayList();
+    private List<IMultiNode<T>> children = new ArrayList();
 
     public IntNodeImpl(T value) {
         this.value = value;
@@ -19,12 +19,12 @@ public class IntNodeImpl<T> implements INode<T> {
     }
 
     @Override
-    public List<INode<T>> getChild() {
+    public List<IMultiNode<T>> getChild() {
         return children;
     }
 
     @Override
-    public void addNode(INode node) {
+    public void addNode(IMultiNode node) {
         children.add(node);
     }
 

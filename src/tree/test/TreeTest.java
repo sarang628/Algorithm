@@ -1,7 +1,8 @@
 package tree.test;
 
-import tree.impl.IntNodeImpl;
-import tree.impl.TreeImpl;
+import tree.impl.binary.BinarySearchTreeImpl;
+import tree.impl.tree.IntNodeImpl;
+import tree.impl.tree.MultiNodeTreeImpl;
 import tree.interfaces.ITree;
 
 import static tree.test.PreOrderTraversal.*;
@@ -13,11 +14,17 @@ public class TreeTest {
 //        new TreeTest().preOrderTest(new TreeImpl());
 //        new TreeTest().preOrderTest1(new TreeImpl());
 //        new TreeTest().preOrderTest2(new TreeImpl());
-        new TreeTest().preOrderTest3(new TreeImpl());
+//        new TreeTest().preOrderTest3(new TreeImpl());
+        TreeTest.inOrderTest(new MultiNodeTreeImpl());
 //        new TreeTest().depthTest(new TreeImpl());
+        BinaryTreeTest.test(new BinarySearchTreeImpl<>());
     }
 
-    private void preOrderTest3(TreeImpl tree) {
+    private static void inOrderTest(MultiNodeTreeImpl tree) {
+        TreeStringSampleData.getSample(tree);
+    }
+
+    private void preOrderTest3(MultiNodeTreeImpl tree) {
         TreeStringSampleData.getSample(tree);
         System.out.println(tree.preorderTraversal());
     }

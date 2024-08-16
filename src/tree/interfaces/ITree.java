@@ -1,15 +1,14 @@
 package tree.interfaces;
 
-public interface ITree {
-
-    void setRoot(INode node);
+public interface ITree<Node> {
+    void setRoot(Node node);
 
     /**
      * 전위 순회
      */
     String preorderTraversal();
 
-    String inorderTraversal();
+    int depth(Node node);
 
-    int depth(INode node);
+    String postOrderTraversal();
 }
