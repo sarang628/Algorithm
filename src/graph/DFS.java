@@ -2,6 +2,13 @@ package graph;
 
 import java.util.*;
 
+/**
+ * https://en.wikipedia.org/wiki/Depth-first_search
+ * an algorithm for traversing or searching tree or graph data structures.
+ * - starts at the root node
+ * - explores as far as possible along each branch
+ * - O(|V|+|E|)
+ */
 public class DFS {
     public static List<Integer> dfs(int[][] graph, int start) {
         System.out.println(Arrays.deepToString(graph));
