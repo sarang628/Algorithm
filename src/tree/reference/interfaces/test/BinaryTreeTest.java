@@ -1,7 +1,7 @@
-package tree.test;
+package tree.reference.interfaces.test;
 
-import tree.impl.binary.BinaryNode;
-import tree.interfaces.IBinarySearchTree;
+import tree.reference.interfaces.impl.binary.BinaryNode;
+import tree.reference.interfaces.IBinarySearchTree;
 
 public class BinaryTreeTest {
     public static void test(IBinarySearchTree<String> binarySearchTree) {

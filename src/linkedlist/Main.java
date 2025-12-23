@@ -1,19 +1,12 @@
 package linkedlist;
 
-import linkedlist.reference.LinkedListByReference;
 import linkedlist.reference.LinkedListImplByReference;
-import linkedlist.reference.Node;
+import linkedlist.test.LinkedListTest;
 
 public class Main {
     public static void main(String args[]){
-        LinkedListByReference linkedList = new LinkedListImplByReference();
-        linkedList.add(new Node(1));
-        linkedList.add(new Node(2));
-        linkedList.add(new Node(3));
-        linkedList.add(new Node(4));
+        LinkedListTest test = new LinkedListTest();
 
-        System.out.println(
-                linkedList.contains(10)
-        );
+        test.test(new LinkedListImplByReference());
     }
 }

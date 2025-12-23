@@ -1,9 +1,8 @@
-package tree.test;
+package tree.reference.interfaces.test;
 
-import tree.impl.tree.IntNodeImpl;
-import tree.interfaces.IMultiNode;
-import tree.interfaces.INode;
-import tree.interfaces.ITree;
+import tree.reference.interfaces.impl.tree.IntNodeImpl;
+import tree.reference.interfaces.IMultiNode;
+import tree.reference.interfaces.ITree;
 
 public class TreeIntSampleData {
     static void getSample(ITree tree) {

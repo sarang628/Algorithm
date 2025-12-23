@@ -1,7 +1,6 @@
-package tree.impl.tree;
+package tree.reference.interfaces.impl.tree;
 
-import tree.interfaces.IMultiNode;
-import tree.interfaces.INode;
+import tree.reference.interfaces.IMultiNode;
 
 public class Print<T> {
     void printNode(IMultiNode<T> node, int depth) {

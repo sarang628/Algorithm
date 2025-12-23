@@ -1,7 +1,7 @@
-package tree.impl.tree;
+package tree.reference.interfaces.impl.tree;
 
-import tree.interfaces.IBinaryNode;
-import tree.interfaces.IMultiNode;
+import tree.reference.interfaces.IBinaryNode;
+import tree.reference.interfaces.IMultiNode;
 
 public class PostorderTraversal<T> {
     public void postOrderTraversal(IMultiNode<T> node, StringBuilder sb) {

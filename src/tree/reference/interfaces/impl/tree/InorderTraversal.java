@@ -1,7 +1,6 @@
-package tree.impl.tree;
+package tree.reference.interfaces.impl.tree;
 
-import tree.interfaces.IBinaryNode;
-import tree.interfaces.IMultiNode;
+import tree.reference.interfaces.IBinaryNode;
 
 public class InorderTraversal<T> {
     public void inorderTraversal(IBinaryNode<T> node, StringBuilder sb) {

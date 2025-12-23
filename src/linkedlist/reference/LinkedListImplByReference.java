@@ -1,6 +1,6 @@
 package linkedlist.reference;
 
-public class LinkedListImplByReference implements LinkedListByReference {
+public class LinkedListImplByReference implements ILinkedListByReference {
 
     INode root;
     INode tail;
@@ -23,5 +23,16 @@ public class LinkedListImplByReference implements LinkedListByReference {
             n = n.next();
         }
         return n != null;
+    }
+
+    @Override
+    public String print() {
+        INode n = root;
+        String result = "";
+        while (n != null) {
+            result += n.getData();
+            n = n.next();
+        }
+        return result;
     }
 }

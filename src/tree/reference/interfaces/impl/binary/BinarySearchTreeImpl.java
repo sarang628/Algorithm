@@ -1,10 +1,10 @@
-package tree.impl.binary;
+package tree.reference.interfaces.impl.binary;
 
-import tree.impl.tree.InorderTraversal;
-import tree.impl.tree.PostorderTraversal;
-import tree.impl.tree.PreorderTraversal;
-import tree.interfaces.IBinaryNode;
-import tree.interfaces.IBinarySearchTree;
+import tree.reference.interfaces.impl.tree.InorderTraversal;
+import tree.reference.interfaces.impl.tree.PostorderTraversal;
+import tree.reference.interfaces.impl.tree.PreorderTraversal;
+import tree.reference.interfaces.IBinaryNode;
+import tree.reference.interfaces.IBinarySearchTree;
 
 public class BinarySearchTreeImpl<T> implements IBinarySearchTree<T> {
     private IBinaryNode<T> root;

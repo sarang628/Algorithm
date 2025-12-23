@@ -1,4 +1,4 @@
-package tree.test;
+package tree.reference.interfaces.test;
 
 public class PreOrderTraversal {
     public static String getSimaplPreOrderTraversal() {

@@ -1,6 +1,6 @@
-package tree.impl.binary;
+package tree.reference.interfaces.impl.binary;
 
-import tree.interfaces.IBinaryNode;
+import tree.reference.interfaces.IBinaryNode;
 
 public class BinaryNode<T> implements IBinaryNode<T> {
     T value;

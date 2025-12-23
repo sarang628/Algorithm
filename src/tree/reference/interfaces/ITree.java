@@ -1,4 +1,4 @@
-package tree.interfaces;
+package tree.reference.interfaces;
 
 /**
  * https://en.wikipedia.org/wiki/Tree_(abstract_data_type)

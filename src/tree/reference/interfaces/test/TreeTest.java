@@ -1,12 +1,12 @@
-package tree.test;
+package tree.reference.interfaces.test;
 
-import tree.impl.binary.BinarySearchTreeImpl;
-import tree.impl.tree.IntNodeImpl;
-import tree.impl.tree.MultiNodeTreeImpl;
-import tree.interfaces.ITree;
+import tree.reference.interfaces.impl.binary.BinarySearchTreeImpl;
+import tree.reference.interfaces.impl.tree.IntNodeImpl;
+import tree.reference.interfaces.impl.tree.MultiNodeTreeImpl;
+import tree.reference.interfaces.ITree;
 
-import static tree.test.PreOrderTraversal.*;
-import static tree.test.TreeIntSampleData.*;
+import static tree.reference.interfaces.test.PreOrderTraversal.*;
+import static tree.reference.interfaces.test.TreeIntSampleData.*;
 
 public class TreeTest {
     public static void main(String[] args) {

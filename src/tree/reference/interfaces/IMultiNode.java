@@ -1,4 +1,4 @@
-package tree.interfaces;
+package tree.reference.interfaces;
 
 import java.util.List;
 

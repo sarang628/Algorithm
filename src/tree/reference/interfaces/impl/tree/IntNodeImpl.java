@@ -1,6 +1,6 @@
-package tree.impl.tree;
+package tree.reference.interfaces.impl.tree;
 
-import tree.interfaces.IMultiNode;
+import tree.reference.interfaces.IMultiNode;
 
 import java.util.ArrayList;
 import java.util.List;

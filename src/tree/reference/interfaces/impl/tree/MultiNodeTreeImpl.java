@@ -1,7 +1,7 @@
-package tree.impl.tree;
+package tree.reference.interfaces.impl.tree;
 
-import tree.interfaces.IMultiNode;
-import tree.interfaces.ITree;
+import tree.reference.interfaces.IMultiNode;
+import tree.reference.interfaces.ITree;
 
 public class MultiNodeTreeImpl<T> implements ITree<IMultiNode<T>> {
     private IMultiNode<T> root;

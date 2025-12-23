@@ -1,4 +1,4 @@
-package tree.interfaces;
+package tree.reference.interfaces;
 
 public interface IBinaryNode<T> extends INode<T> {
 
